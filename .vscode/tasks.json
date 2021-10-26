@@ -1,0 +1,65 @@
+//FROM TUTORIAL
+//https://levelup.gitconnected.com/rust-with-visual-studio-code-46404befed8
+{
+    "version": "2.0.0",
+    "tasks": 
+    [
+      {
+        "label": "cargo build",
+        "type": "shell",
+        "command": "cargo",
+        "args": 
+        [
+          "build"
+        ],
+        "group": 
+        {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "cargo run",
+        "type": "shell",
+        "command": "cargo",
+        "args": 
+        [
+          "run"
+        ],
+        "group": 
+        {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "cargo test",
+        "type": "shell",
+        "command": "cargo",
+        "args": 
+        [
+          "test"
+        ],
+        "group": 
+        {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "cargo build --release",
+        "type": "shell",
+        "command": "cargo",
+        "args": 
+        [
+          "build",
+          "--release",
+        ],
+        "group": 
+        {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }

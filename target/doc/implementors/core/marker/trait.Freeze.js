@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["http_server_threads"] = [{"text":"impl Freeze for <a class=\"struct\" href=\"http_server_threads/struct.ThreadPool.html\" title=\"struct http_server_threads::ThreadPool\">ThreadPool</a>","synthetic":true,"types":["http_server_threads::ThreadPool"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
